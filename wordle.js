@@ -51,6 +51,8 @@ for(let i = 0;i<numeColuna;i++){
   container.appendChild(coluna);
 }
 
+
+
 if(Adicionado === false){
 document.addEventListener('keydown', (tecla) => {
     let key = tecla.key.toUpperCase();
@@ -77,6 +79,7 @@ document.addEventListener('keydown', (tecla) => {
     }
 });
 }
+
 
 
 
@@ -439,7 +442,9 @@ function VerificarSorteada(palavra, contagem){
       TitleId(1);
     }
   }else{
+    if(GameOver === false){
     alert("palavra inexistente");
+    }
   }
   
 }
