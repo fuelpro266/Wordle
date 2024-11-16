@@ -172,7 +172,7 @@ body{
 
   .Enter{
     cursor: pointer;
-    width: 100px;
+    width: 7%;
     height: 45px;
     background-color: #4c4347;
     border-radius: 4px;
@@ -195,7 +195,7 @@ body{
     background-color: #4c4347;
     border-radius: 4px;
     margin: 3px;
-    margin-left: 20px;
+    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
