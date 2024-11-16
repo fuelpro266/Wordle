@@ -143,7 +143,7 @@ keys_3.forEach(key => {
     }else{
       IdEspecific2(keys,last_id, 2);
       IdEspecific(last_id, 1);
-    }
+    } 
       });
 });
 
@@ -487,7 +487,7 @@ palavra_usadas.forEach(key => {
 });
 palavra_usadas[contagem_array] = palavra_sorteada;
 contagem_array++;
-alert(palavra_usadas[contagem_array - 1]);
+
 
 }
 
