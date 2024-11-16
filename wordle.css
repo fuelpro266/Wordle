@@ -184,8 +184,8 @@ body{
 
 
   .imagem_delete{
-    height: 30px;
-    width: 30px;
+    height: 60%;
+    width: 60%;
     
   }
   .delete_img{
@@ -200,7 +200,7 @@ body{
     justify-content: center;
     align-items: center;
   }
- 
+  
   .title-designi{
     animation: letraChegando 0.5s forwards;
     font-size: 30px;
